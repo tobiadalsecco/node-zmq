@@ -1,3 +1,3 @@
 # node-zmq
 
-A Docker image with node (with pm2) and ZeroMq
+A Docker image with node and ZeroMq
