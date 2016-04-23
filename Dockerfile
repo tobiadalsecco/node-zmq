@@ -7,7 +7,7 @@ RUN wget http://download.zeromq.org/zeromq-4.1.3.tar.gz && tar -xvf zeromq-4.1.3
 
 RUN apt-get remove -y libtool autoconf automake make g++ uuid-dev wget
 RUN apt-get purge -y libtool autoconf automake make g++ uuid-dev wget
-RUN apt-get autoremove
-RUN apt-get autoclean
+RUN apt-get autoremove -y
+RUN apt-get autoclean -y
 
 WORKDIR /data
