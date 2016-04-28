@@ -10,3 +10,4 @@ WORKDIR /data
 RUN npm init --yes
 
 RUN npm install microservices-layer
+RUN npm install hiredis
